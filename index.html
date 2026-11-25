@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wahyu Dwi Setiawan | Portofolio</title>
+  <meta name="description" content="Website portofolio pribadi Wahyu Dwi Setiawan.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Tombol menu (mobile) -->
+  <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">
+    <i class="bi bi-list"></i>
+  </button>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar" id="sidebar">
+    <div class="profile">
+      <img class="avatar" src="foto.jpeg" alt="Foto Wahyu Dwi Setiawan"
+           onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 120 120%27%3E%3Crect width=%27120%27 height=%27120%27 fill=%27%23149ddd%27/%3E%3Ctext x=%2750%25%27 y=%2755%25%27 font-size=%2744%27 fill=%27white%27 font-family=%27Arial%27 text-anchor=%27middle%27 dominant-baseline=%27middle%27%3EWD%3C/text%3E%3C/svg%3E'">
+      <h1 class="profile-name"><a href="#beranda">Wahyu Dwi Setiawan</a></h1>
+      <div class="socials">
+        <a href="https://www.instagram.com/whyuudwiii?lqvp=dWkwZ2t1ODkzeW56&utm_source=qr/" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://github.com/wahyudwi110707/" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/wahyu-dwi-setiawan-04434141a?utm_source=share_via&utm_content=profile&utm_medium=member_android/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+
+        <a href="https://wa.me/6285142662632" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+      </div>
+    </div>
+
+    <nav class="nav" id="nav">
+      <a href="#beranda" class="active"><i class="bi bi-house"></i><span>Beranda</span></a>
+      <a href="#tentang"><i class="bi bi-person"></i><span>Tentang Saya</span></a>
+      <a href="#portfolio"><i class="bi bi-journal-richtext"></i><span>Portfolio</span></a>
+      <a href="#pendidikan"><i class="bi bi-mortarboard"></i><span>Pendidikan</span></a>
+      <a href="#pengalaman"><i class="bi bi-briefcase"></i><span>Pengalaman</span></a>
+      <a href="#blog"><i class="bi bi-pencil-square"></i><span>Blog</span></a>
+      <a href="#kontak"><i class="bi bi-envelope"></i><span>Kontak</span></a>
+    </nav>
+
+    <footer class="side-footer">
+      <p>&copy; <span id="year"></span> <strong>Wahyu Dwi Setiawan</strong></p>
+    </footer>
+  </aside>
+
+  <main class="main">
+
+    <!-- BERANDA -->
+    <section id="beranda" class="hero">
+      <div class="hero-inner">
+        <h2>Wahyu Dwi Setiawan</h2>
+        <p>Saya seorang <span id="typed"></span><span class="cursor">|</span></p>
+      </div>
+    </section>
+
+    <!-- TENTANG SAYA -->
+    <section id="tentang" class="section">
+      <div class="container">
+        <header class="section-title">
+          <h2>Tentang Saya</h2>
+    
+        </header>
+        <div class="about-grid">
+          <img class="about-jpeg" src="foto.jpeg" alt="Wahyu Dwi Setiawan" onerror="this.style.display='none'">
+          <div class="about-text">
+            <h3>Web Developer &amp; Mahasiswa Teknologi Rekayasa Perangkat Lunak
+            </h3>
+            <p class="lead">Saya senang membangun website yang rapi, cepat, dan mudah dipakai.</p>
+            <ul class="info-list">
+              <li><i class="bi bi-chevron-right"></i><strong>Nama:</strong> Wahyu Dwi Setiawan</li>
+              <li><i class="bi bi-chevron-right"></i><strong>Email:</strong> wahyudwi110707@gmail.com</li>
+              <li><i class="bi bi-chevron-right"></i><strong>Telepon:</strong> +62 851-4266-2632</li>
+              <li><i class="bi bi-chevron-right"></i><strong>Kota:</strong> Surakarta</li>
+              <li><i class="bi bi-chevron-right"></i><strong>Status:</strong> Tersedia untuk proyek</li>
+            </ul>
+            <p>Saya belajar HTML, CSS, dan JavaScript dengan membuat proyek nyata, mulai dari website usaha kecil sampai website pribadi. Saya terbiasa bekerja rapi dan mau terus belajar hal baru.</p>
+          </div>
+        </div>
+
+        <h3 class="sub-title">Keahlian</h3>
+        <div class="skills">
+          <div class="skill"><div class="skill-head"><span>HTML</span><span>90%</span></div><div class="bar"><div class="fill" data-w="90"></div></div></div>
+          <div class="skill"><div class="skill-head"><span>CSS</span><span>85%</span></div><div class="bar"><div class="fill" data-w="85"></div></div></div>
+          <div class="skill"><div class="skill-head"><span>JavaScript</span><span>70%</span></div><div class="bar"><div class="fill" data-w="70"></div></div></div>
+          <div class="skill"><div class="skill-head"><span>Git &amp; GitHub</span><span>65%</span></div><div class="bar"><div class="fill" data-w="65"></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="section alt">
+      <div class="container">
+        <header class="section-title">
+          <h2>Portfolio</h2>
+          <p>Beberapa proyek yang pernah saya kerjakan.</p>
+        </header>
+
+        <div class="filters" id="filters" role="group" aria-label="Filter proyek">
+          <button class="active" data-filter="all">Semua</button>
+          <button data-filter="web">Website</button>
+          <button data-filter="video">Video</button>
+          <button data-filter="tugas">Tugas Kuliah</button>
+        </div>
+
+        <div class="projects" id="projects">
+          <article class="project" data-cat="web">
+            <div class="thumb t1"><i class="bi bi-droplet-half"></i></div>
+            <div class="project-body">
+              <h3>Website Laundry Barokah</h3>
+              <p>Website usaha laundry dengan daftar harga dan informasi layanan.</p>
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+            </div>
+          </article>
+          <article class="project" data-cat="video tugas">
+            <div class="thumb t2"><i class="bi bi-camera-video"></i></div>
+            <div class="project-body">
+              <h3>Video Pembelajaran Bahasa Inggris</h3>
+              <p>Video penjelasan komponen hardware dan software dalam bahasa Inggris.</p>
+              <span class="tag">Video</span><span class="tag">Bahasa Inggris</span>
+            </div>
+          </article>
+          <article class="project" data-cat="web">
+            <div class="thumb t3"><i class="bi bi-person-badge"></i></div>
+            <div class="project-body">
+              <h3>Website Portofolio Pribadi</h3>
+              <p>Halaman profil dengan menu samping, bagian proyek, dan formulir kontak.</p>
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+            </div>
+          </article>
+          <article class="project" data-cat="tugas">
+            <div class="thumb t4"><i class="bi bi-code-slash"></i></div>
+            <div class="project-body">
+              <h3>Proyek Kuliah (Elearning Web Development)</h3>
+              <p>mengerjakan modul pembelajaran web development.</p>
+              <span class="tag">Tugas</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PENDIDIKAN -->
+    <section id="pendidikan" class="section">
+      <div class="container">
+        <header class="section-title">
+          <h2>Pendidikan</h2>
+          <p>Riwayat pendidikan.</p>
+        </header>
+        <div class="timeline">
+          <div class="t-item">
+            <h4>Sarjana Terapan / Diploma 4 (Teknologi Rekayasa Perangkat Lunak)</h4>
+            <span class="period">2025 – Sekarang</span>
+            <p class="place">politeknik Indonusa Surakarta</p>
+            <p>Mempelajari pemrograman, basis data, dan rekayasa perangkat lunak.</p>
+          </div>
+          <div class="t-item">
+            <h4>SMA / SMK (SMA IPS)</h4>
+            <span class="period">2022 – 2025</span>
+            <p class="place">SMA N 1 TANGEN</p>
+            <p>berbagai kegiatan akademik, praktik lapangan, dan organisasi yang berkaitan dengan ekonomi, sosiologi, geografi, dan sejarah.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PENGALAMAN -->
+    <section id="pengalaman" class="section alt">
+      <div class="container">
+        <header class="section-title">
+          <h2>Pengalaman</h2>
+          <p>Pengalaman kerja, organisasi, proyek freelance.</p>
+        </header>
+        <div class="timeline">
+          <div class="t-item">
+            <h4>Web Developer Freelance</h4>
+            <span class="period">2025 – Sekarang</span>
+            <p class="place">Proyek mandiri</p>
+            <ul>
+              <li>Membuat website untuk usaha kecil.</li>
+              <li>Menyusun tampilan yang nyaman di HP dan komputer.</li>
+            </ul>
+          </div>
+          <div class="t-item">
+            <h4>Anggota Organisasi (BEM )</h4>
+            <span class="period">2025 – 2026</span>
+            <p class="place">BEM Politeknik Indonusa Surakarta</p>
+            <ul>
+              <li>Penyelenggaraan kegiatan kampus: terlaksananya seminar, workshop, pelatihan kepemimpinan, lomba, festival, dan penyambutan mahasiswa baru.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOG -->
+    <section id="blog" class="section">
+      <div class="container">
+        <header class="section-title">
+          <h2>Blog</h2>
+          <p>Catatan belajar dan tulisan singkat.</p>
+        </header>
+        <div class="posts">
+          <article class="post">
+            <time datetime="2026-11-20">20 November 2026</time>
+            <h3>Cara Belajar HTML, CSS, dan JavaScript dari Nol</h3>
+            <p>Mulai dari proyek kecil, lalu tambahkan fitur satu per satu.</p>
+            <a href="#blog" class="more">Baca selengkapnya</a>
+          </article>
+          <article class="post">
+            <time datetime="2026-11-10">10 November 2026</time>
+            <h3>Mengenal Komponen Hardware dan Software</h3>
+            <p>Ringkasan komponen utama komputer dan fungsinya.</p>
+            <a href="#blog" class="more">Baca selengkapnya</a>
+          </article>
+          <article class="post">
+            <time datetime="2026-10-28">28 Oktober 2026</time>
+            <h3>Membuat Website Responsif dengan CSS Grid</h3>
+            <p>Atur tata letak agar tampil baik di semua ukuran layar.</p>
+            <a href="#blog" class="more">Baca selengkapnya</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section id="kontak" class="section alt">
+      <div class="container">
+        <header class="section-title">
+          <h2>Kontak</h2>
+          <p>Hubungi saya lewat formulir ini atau kontak di samping.</p>
+        </header>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="ci"><i class="bi bi-geo-alt"></i><div><h4>Lokasi</h4><p>Surakarta</p></div></div>
+            <div class="ci"><i class="bi bi-envelope"></i><div><h4>Email</h4><p>wahyudwi110707@gmail.com</p></div></div>
+            <div class="ci"><i class="bi bi-phone"></i><div><h4>Telepon</h4><p>+62 851-4266-2632</p></div></div>
+          </div>
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="row">
+              <div class="field"><label for="nama">Nama</label><input id="nama" name="nama" type="text" required></div>
+              <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required></div>
+            </div>
+            <div class="field"><label for="subjek">Subjek</label><input id="subjek" name="subjek" type="text" required></div>
+            <div class="field"><label for="pesan">Pesan</label><textarea id="pesan" name="pesan" rows="6" required></textarea></div>
+            <p class="form-msg" id="formMsg" role="status"></p>
+            <button type="submit" class="btn">Kirim pesan</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <p>&copy; <span id="year2"></span> Wahyu Dwi Setiawan. Semua hak dilindungi.</p>
+    </footer>
+  </main>
+
+  <button class="to-top" id="toTop" aria-label="Kembali ke atas"><i class="bi bi-arrow-up-short"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
