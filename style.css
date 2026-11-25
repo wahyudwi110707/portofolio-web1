@@ -110,7 +110,7 @@ ul { list-style: none; }
 
 /* Tentang */
 .about-grid { display: grid; grid-template-columns: 280px 1fr; gap: 36px; align-items: start; }
-.about-img { width: 100%; border-radius: 6px; aspect-ratio: 4/5; object-fit: cover; }
+.about-jpeg { width: 100%; border-radius: 6px; aspect-ratio: 4/5; object-fit: cover; }
 .about-text h3 { font: 600 22px var(--font-head); color: #173b6c; }
 .lead { font-style: italic; color: var(--muted); margin: 6px 0 16px; }
 .info-list { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 24px; margin-bottom: 16px; }
